@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(135deg, #1c1c1c, #3a3a3a); 
+    color:darkgray;
+}
+h1,h3{
+    text-align: center;
+}
+.input-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 2px;
+}
+.input-section input[type="number"] , .input-section input[type="date"]  {
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+.input-section button{
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    width:10%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.input-section button:hover{
+    background: linear-gradient(90deg, #8f94fb, #4e54c8);
+}
+.expense-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+    text-align: left;
+}
+th{
+    background:  #4e54c8; 
+    color: #d5d4d4;
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background: linear-gradient(90deg,#c55f5f ,#a74a4adf);
+    color: #ddd;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width:auto;
+}
